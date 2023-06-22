@@ -6,7 +6,7 @@ public class SistemasNumericosEntradaScanner {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un número entero:");
-        // String numeroStr = scanner.nextLine();
+        //String numeroStr = scanner.nextLine();
         int numeroDecimal = 0;
         try {
             numeroDecimal = scanner.nextInt();// Integer.parseInt(numeroStr);

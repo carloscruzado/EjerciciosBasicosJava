@@ -1,13 +1,13 @@
 public class ConversionDeTipos {
     public static void main(String[] args) {
-        String numeroStr = "50";
+        String numeroString = "70";
         
-        int numeroInt = Integer.parseInt(numeroStr);
-        System.out.println("numeroInt = " + numeroInt);
+        int numeroEntero = Integer.parseInt(numeroString);
+        System.out.println("numeroEntero = " + numeroEntero);
         
-        String realStr = "98765.43e-3";
-        double realDouble = Double.parseDouble(realStr);
-        System.out.println("realDouble = " + realDouble);
+        String verdaderoString = "98999.43e-3";
+        double verdaderoDouble = Double.parseDouble(verdaderoString);
+        System.out.println("verdaderoDouble = " + verdaderoDouble);
         
         String logicoStr = "TruE";
         boolean logicoBoolean = Boolean.parseBoolean(logicoStr);

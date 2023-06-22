@@ -30,6 +30,7 @@ public class EjemploStringMetodos {
         System.out.println("trabalenguas.endsWith(\"s\") = " + trabalenguas.endsWith("s"));
         System.out.println("  trabalenguas ");
         System.out.println("  trabalenguas ".trim());
-        
+        String archivo ="extencion.jp";
+        System.out.println(archivo.substring(archivo.lastIndexOf(".")+1));
     }
 }
